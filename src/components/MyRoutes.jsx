@@ -10,9 +10,9 @@ export const MyRoutes = () => {
         <Route path='/' element={<Search />} />
         <Route path='/results' element={<Results />} />
         <Route path='/search' element={<Results />} />
-        <Route path='/images' element={<Results />} />
+        <Route path='/image' element={<Results />} />
         <Route path='/news' element={<Results />} />
-        <Route path='/videos' element={<Results />} />
+        <Route path='/video' element={<Results />} />
       </Routes>
     </div>
   );
