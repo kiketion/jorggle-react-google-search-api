@@ -13,7 +13,7 @@ export const Links = () => {
     'text-blue-700 border-b-2 dark:text-blue-300 border-blue-700 pb-2';
 
   return (
-    <nav className='flex items-center justify-between sm:justify-around mt-4'>
+    <div className='flex items-center justify-between sm:justify-around mt-4'>
       {links.map(({ url, text }) => (
         <NavLink
           to={url}
@@ -23,6 +23,6 @@ export const Links = () => {
           {text}
         </NavLink>
       ))}
-    </nav>
+    </div>
   );
 };
